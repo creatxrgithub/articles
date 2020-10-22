@@ -1,0 +1,73 @@
+/**
+快速排序的遞歸描述
+
+１、任意選擇一個記錄（通常指定為第一個記錄）並將其儲存在Ｋ備用。
+２、當低位指針小於高位指針時循環：
+	當低位指針小於高位指針，高位指針遞减，當碰到比Ｋ的鍵値小時停止，將當前高位指針記錄存到低位指針位置；
+	當低位指針小於高位指針，低位指針遞增，當碰到比Ｋ的鍵値大時停止，將當前低位指針記錄存到高位指針位置。
+３、將Ｋ放回到低位指針的位置，完成一次快排過程。
+４、現在，比Ｋ鍵値小的在左，比Ｋ鍵値大的在右，所有的記錄被Ｋ分成了兩份。這時，Ｋ在排序中的位置不會再有變化了。在被Ｋ分成的兩份記錄中分別重復上面的三個步骤。
+*/
+function patition(list,low,high) {
+	var k = list[low];
+	var privokey = list[low];
+	while(low<high) {
+		while(low<high&&list[high]>=privokey) --high;
+		list[low] = list[high];
+		while(low<high&&list[low]<=privokey) ++low;
+		list[high] = list[low];
+	}
+	list[low] = k;
+	return low;
+}
+function qsort(list,low,high) {
+	if(low<high) {
+		var pivotloc = patition(list,low,high);
+		qsort(list,low,pivotloc-1);
+		qsort(list,pivotloc+1,high);
+	}
+}
+function quicksort(list) {
+	qsort(list, 0, list.length-1);
+}
+
+/**
+堆：K(i)<=K(2i) && K(i)<=K(2i+1) 或 K(i)>=K(2i) && K(i)>=K(2i+1)
+
+建堆過程的遞歸描述：
+１、從第一個非葉子節點開始，選擇父節點及左右兩個子節點中最大（或最小）的作為父節點。
+２、向根節點逐步上移，重復步驟一
+
+堆排序
+１、輸出根結點，這是最大（或最小）的節點：將根結點與最後一個結點交換，即將最大（或最小）的節點保存到最後一個位置。
+２、由於交換破壞了堆的性質，需在剩下的Ｎ－１個節點中重新建堆，輸出新堆的根節點，這是次小値。
+３、以此類推，重復上述兩個步驟。
+
+起始下標為１，長度為Ｎ，當前為Ｉ：父節點為」Ｉ／２」，子節點為２Ｉ及２Ｉ＋１，最後一個非終端節點為」Ｎ／２」
+起始下標為０，長度為Ｎ，當前為Ｉ：父節點為」（Ｉ－１）／２」，子節點為２Ｉ＋１及２Ｉ＋２，最後一個非終端節點為」Ｎ／２」－１
+*/
+
+/**
+參數：節點列表，起始下標，終止下標
+*/
+function heapAdjust(list, start, end) {
+	var rc = list[start];
+	for(var j=2*start; j<=end; j=j*2) {
+		if(j<end && list[j]>list[j+1]) j++;
+		if(rc<=list[j]) break;
+		list[start] = list[j];
+		start = j;
+	}
+	list[start] = rc;
+}
+function heapsort(list) {
+	var temp;
+	for(var start=Math.floor(list.length/2)-1; start>=0; start--) {  //可以從第一個非葉子節點開始進行建堆
+		heapAdjust(list, start, list.length-1);
+	}
+	for(var end=list.length-1; end>0;) {
+		temp = list[0]; list[0] = list[end]; list[end] = temp;
+		end--;
+		heapAdjust(list, 0, end);
+	}
+}
