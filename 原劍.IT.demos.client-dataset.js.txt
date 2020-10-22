@@ -1,0 +1,190 @@
+/*
+ * 非常早期的學習及自用的作品，所以校驗的部份就沒有完成。
+ * 用於 Web 端模擬 Delphi 的 ClientDataset
+ * 各成員函數中用 self 來保存 this 指鍼，以避免 javascript 的 this 指鍼的各種坑
+ * filter 數組是對應 field 數組的各字段的渲染函數，比如把 path data 放到 svg 的屬性 d 中去
+ *
+	function svg(d) {
+		var $svg = $('<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="50" width="50" viewbox="0 0 1000 1000"><g transform="matrix(1,0,0,-1,0,800)"><path d="" /></g></svg>');
+		$svg.children('g').children('path').attr('d', d);
+		return $svg;
+	}
+ * 
+ * 現在開源代碼很多，解決方法就太多了
+ */
+
+function ClientDataset(uri, header, field, filter, validationRules) {
+	this.maxRecord = 10;
+	this.curRecord = 0;
+	this.isAppended = false;
+	this.cUri = uri;
+	this.rUri = uri;
+	this.uUri = uri;
+	this.dUri = uri;
+	this.header = header;
+	this.field = field;
+	this.filter = filter;
+	this.validationRules = $.parseJSON(validationRules);
+
+	this.$table = $('<table></table>');
+}
+
+ClientDataset.prototype.setStyle = function(style) {
+    this.$table.attr('class', style);
+}
+
+ClientDataset.prototype.init = function() {
+	let $tr = $('<tr></tr>');
+	let $td = $('<td></td>');
+
+	for(let i=0; i<this.header.length; i++) {
+		$td = $('<th></th>');
+		$td.html(this.header[i]);
+		$td.appendTo($tr);
+	}
+	$tr.appendTo(this.$table);
+
+	return this.$table;
+}
+
+ClientDataset.prototype.refresh = function () {
+	let self = this; //to keep parent's this
+	if(!self.isAppended) {
+		self.$table.children().find('tr:not(:first)').remove();
+	}
+	$.post(this.rUri, {'maxRecord':self.maxRecord, 'curRecord':self.curRecord}, function(data){
+		let oJson = $.parseJSON(data);
+		$.each(oJson, function() {
+			let $tr = $('<tr></tr>');
+			for(let i=0; i<self.field.length; i++) {
+				let $td = $('<td></td>');
+				let $content = this[self.field[i]];
+				if(self.filter!==null) {
+					if(self.filter[i]!==null) { $content = self.filter[i].call(this,$content); }
+				}
+				$td.html($content);
+				$td.appendTo($tr);
+			}
+			$tr.appendTo(self.$table);
+		});//$.each();
+//				alert(data);
+	});//$.post()
+}//refresh()
+
+ClientDataset.prototype.next = function () {
+	let self = this; //to keep parent's this
+	if(!self.isAppended) {
+		self.$table.children().find('tr:not(:first)').remove();
+	}
+	self.curRecord += self.maxRecord;
+	$.post(this.rUri, {'maxRecord':self.maxRecord, 'curRecord':self.curRecord}, function(data){
+		let oJson = $.parseJSON(data);
+		$.each(oJson, function() {
+			let $tr = $('<tr></tr>');
+			for(let i=0; i<self.field.length; i++) {
+				let $td = $('<td></td>');
+				let $content = this[self.field[i]];
+				if(self.filter[i]!==null) { $content = self.filter[i].call(this,$content); }
+				$td.html($content);
+				$td.appendTo($tr);
+			}
+			$tr.appendTo(self.$table);
+		});//$.each();
+	});//$.post()
+}//next()
+
+ClientDataset.prototype.prev = function () {
+	let self = this; //to keep parent's this
+	if(!self.isAppended) {
+		self.$table.children().find('tr:not(:first)').remove();
+	}
+	self.curRecord -= self.maxRecord;
+	if(self.curRecord<0) {
+		self.curRecord = 0;
+	}
+	$.post(this.rUri, {'maxRecord':self.maxRecord, 'curRecord':self.curRecord}, function(data){
+		let oJson = $.parseJSON(data);
+		$.each(oJson, function() {
+			let $tr = $('<tr></tr>');
+			for(let i=0; i<self.field.length; i++) {
+				let $td = $('<td></td>');
+				let $content = this[self.field[i]];
+				if(self.filter[i]!==null) { $content = self.filter[i].call(this,$content); }
+				$td.html($content);
+				$td.appendTo($tr);
+			}
+			$tr.appendTo(self.$table);
+		});//$.each();
+	});//$.post()
+}//prev()
+
+ClientDataset.prototype.validate = function(i,rules) { //TODO:
+	let valid = true;
+	$.each(rules,function(k,v){
+		if(!valid) return;
+		switch(k) {
+			case 'required' : 
+				if(v) { 
+					if(i===null) {valid = false; break;} 
+					if(i.trim()==='') {valid = false; break;}
+				}
+//					case 'min' :
+//						if((i<v)||(i.trim().length<v)) {valid = false; break;}
+	
+		}			
+	});
+	return valid;
+}
+
+ClientDataset.prototype.toJson = function(verifyRequired) { //TODO: 沒完成，僅執行 true 
+	let self = this;
+	let data = [];
+
+	self.$table.children().find('tr:not(:first)').each(function(){
+		let field = $(this).children().find(':input');
+
+		let valid = true;
+		$.each(field,function(){
+			if(!valid) return;
+			if(typeof eval('self.validationRules.rules.'+$(this).attr('name')) != 'undefined') { valid = self.validate($(this).attr('value'),eval('self.validationRules.rules.'+$(this).attr('name'))); }
+		});//$.each() #input
+		if(valid) {
+			let item = {};
+			$.each(field,function(){
+                if($(this).is(':checkbox')) {
+                    if($(this).is(':checked')) {
+                        item[$(this).attr('name')] = $(this).attr('value');
+                    } else {
+                        item[$(this).attr('name')] = null;
+                    }
+                } else if($(this).is(':radio')) {
+                    if($(this).is(':checked')) {
+                        item[$(this).attr('name')] = $(this).attr('value');
+                    }
+                } else {
+                    item[$(this).attr('name')] = $(this).attr('value');
+                }
+			});//$.each() #build json item	
+			data.push(item);
+		}
+	})//$.each() #tr
+/*		
+	$.each($(data),function(){
+		$.each(this,function(k,v){
+			alert(k);
+			alert(v);
+		});//$.each() #item
+	});//$.each() #jsondata
+*/
+
+	return JSON.stringify(data);
+}
+
+ClientDataset.prototype.update = function(verifyRequired) {
+	let self = this;
+
+    $.post(this.uUri, {'data':this.toJson(true)}, function(data){
+		$('#div_msg').append(data);
+	});//$.post()
+}
+
