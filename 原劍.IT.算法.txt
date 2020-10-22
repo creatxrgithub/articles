@@ -9,8 +9,8 @@
 ４、現在，比Ｋ鍵値小的在左，比Ｋ鍵値大的在右，所有的記錄被Ｋ分成了兩份。這時，Ｋ在排序中的位置不會再有變化了。在被Ｋ分成的兩份記錄中分別重復上面的三個步骤。
 */
 function patition(list,low,high) {
-	var k = list[low];
-	var privokey = list[low];
+	let k = list[low];
+	let privokey = list[low];
 	while(low<high) {
 		while(low<high&&list[high]>=privokey) --high;
 		list[low] = list[high];
@@ -22,7 +22,7 @@ function patition(list,low,high) {
 }
 function qsort(list,low,high) {
 	if(low<high) {
-		var pivotloc = patition(list,low,high);
+		let pivotloc = patition(list,low,high);
 		qsort(list,low,pivotloc-1);
 		qsort(list,pivotloc+1,high);
 	}
@@ -51,8 +51,8 @@ function quicksort(list) {
 參數：節點列表，起始下標，終止下標
 */
 function heapAdjust(list, start, end) {
-	var rc = list[start];
-	for(var j=2*start; j<=end; j=j*2) {
+	let rc = list[start];
+	for(let j=2*start; j<=end; j=j*2) {
 		if(j<end && list[j]>list[j+1]) j++;
 		if(rc<=list[j]) break;
 		list[start] = list[j];
@@ -61,11 +61,11 @@ function heapAdjust(list, start, end) {
 	list[start] = rc;
 }
 function heapsort(list) {
-	var temp;
-	for(var start=Math.floor(list.length/2)-1; start>=0; start--) {  //可以從第一個非葉子節點開始進行建堆
+	let temp;
+	for(let start=Math.floor(list.length/2)-1; start>=0; start--) {  //可以從第一個非葉子節點開始進行建堆
 		heapAdjust(list, start, list.length-1);
 	}
-	for(var end=list.length-1; end>0;) {
+	for(let end=list.length-1; end>0;) {
 		temp = list[0]; list[0] = list[end]; list[end] = temp;
 		end--;
 		heapAdjust(list, 0, end);
