@@ -5,5 +5,7 @@ destination: ./_site
 
 include: [".txt", ".TXT", ".md"]
 
+baseurl: "/articles"
+
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
