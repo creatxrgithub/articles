@@ -3,5 +3,5 @@ theme: jekyll-theme-architect
 source: ./
 destination: ./_site
 
-include: [".txt", ".TXT", "./md"]
+include: [".txt", ".TXT", ".md"]
 
