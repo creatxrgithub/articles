@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
 
 source: ./
-destination: ./_site
+destination: ./
 
 include: [".txt", ".TXT", ".md"]
 
