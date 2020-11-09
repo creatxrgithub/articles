@@ -1,14 +1,2 @@
 theme: jekyll-theme-architect
 
-source: ./
-destination: ./
-
-include: [".txt", ".TXT", ".md"]
-
-baseurl: "/articles"
-
-
-
-gems:
-  - github-pages
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
