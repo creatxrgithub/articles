@@ -7,5 +7,9 @@ include: [".txt", ".TXT", ".md"]
 
 baseurl: "/articles"
 
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
