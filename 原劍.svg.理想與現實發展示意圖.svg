@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="542.59956"
-     inkscape:cy="478.389"
+     inkscape:cx="98.313846"
+     inkscape:cy="466.96043"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -301,7 +301,7 @@
          id="tspan954"
          x="19.209101"
          y="160.77054"
-         style="stroke-width:0.18549077">橢圓表示能力，紅色星表示選擇點，是下一個橢圓的焦點。</tspan><tspan
+         style="stroke-width:0.18549077">橢圓表示能力，紅色星表示願望，藍色星表示選擇點，是下一個橢圓的焦點。</tspan><tspan
          sodipodi:role="line"
          x="19.209101"
          y="170.93716"
