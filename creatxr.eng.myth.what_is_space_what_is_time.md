@@ -15,5 +15,6 @@ human itself is an energy body. compared with the earth, the energy of the human
 
 people sometimes feel that time passes faster or slower. the feeling that time goes faster means that you think a long time has passed, but the real time has only passed for a while. this is because your body loses more energy than usual. such as when you are in sickness. on the inverse, the feeling of time goes slower, which means that you thought it was only a while, but the real time has passed for a long time. this is because your body loses less energy than usual. such as when you are in leisure time.
 
+the time for everyone independent is different.
 
 note: the fractal curve can cover the plane. for example, the hilbert curve.
