@@ -17,4 +17,6 @@ people sometimes feel that time passes faster or slower. the feeling that time g
 
 the time for everyone independent is different.
 
+according to the general theory of relativity, "the trajectory of inertial motion is the shortest path in space-time geometry (geodesis)". why does the object move along the geodesic line while without external force? this is like the spread of water or a volcanic eruption, the energy catharsis will first break through the weak point. and the dimension of time is the dimension of energy change (similar to the density of objects. please look at the geographic mapping of contour lines to get a feel). so, "without external force" is actually "forced". the force received is related to the vector of energy release and the nature of the object's energy (positive or negative).
+
 note: the fractal curve can cover the plane. for example, the hilbert curve.
