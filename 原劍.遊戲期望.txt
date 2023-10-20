@@ -6,7 +6,7 @@
 
 打算去 https://www.world-creator.com 買一套
 
-其餘的希望用blender﹐makehuman﹐daz3d等免費工具就能制作。精細度適度可調﹐以便低配電腦運行。圖像處理使用最新VulkanAPI的引擎﹐不考慮兼容。但遊戲必須有Linux平臺的版本。
+其餘的希望用 TerraForge3D, blender﹐makehuman﹐daz3d 等免費工具就能制作。精細度適度可調﹐以便低配電腦運行。圖像處理使用最新 VulkanAPI 的引擎﹐不考慮兼容。但遊戲必須有 Linux 平臺的版本。
 
 二﹑藏於虛空中的神話支綫世界﹐希望能用分形函數構造景像。
 
