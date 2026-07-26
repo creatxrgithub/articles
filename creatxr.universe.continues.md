@@ -1,135 +1,133 @@
 
+---
+
 # Quaternionic 3D-Planar Holographic Cosmology (Sequel)
 
-## — From Microscopic Vector Stacking, Dynamic Deflection Angles to the Pure Geometric Emergence of the Four Fundamental Forces
-
-> **Abstract:**
-> This paper continues the geometric framework of the (3+1+1) quaternionic 3D plane and the energy-level discharge function f(a,b,c,i) proposed in the initial work. Addressing the boundary condition of constant I and scalar sum minimization min(|a|+|b|+|c|), we establish a purely geometric emergence mechanism for the four fundamental forces. Specifically, we provide the geometric justification for assigning the three gauge forces to the real axes (A, B, C): the vector closure relationship (dA - dB + dC = 0) and the dynamic angle deflection mechanism under the grand unification scale precisely correspond to the "running coupling constants" and "spontaneous electroweak symmetry breaking" in modern particle physics. Furthermore, replacing the purely probabilistic view of quantum tunneling, this paper proposes a deterministic pan-axial tunneling mechanism based on the "Principle of Least Compensation" and geodesic refraction. Finally, using empirical evidence of "spatial 3D perception degradation" in spaceflight microgravity, we reveal the environment-dependent and illusory nature of the Cartesian orthogonal coordinate system (X, Y, Z).
+## —— Pure Geometric Emergence of the Four Fundamental Forces from Microscopic Vector Stacking to Dynamic Opening-Angle Deflection
 
 ---
 
-## 1. Introduction: From Geometric Intuition to Physical Picture
+### I. Introduction and Vector Stacking
 
-The initial work established an over-complete spatial model based on a real 3D plane and an imaginary anchor point I. However, the core question of physics remains: how do abstract geometric constraints translate into observable physical interactions?
+The four fundamental forces of nature (strong nuclear, electromagnetic, weak nuclear, and gravity) are not independent entities, but manifestations of geometric dynamics, vector stacking, and phase deflections as the underlying matrix seeks to "minimize scalar sum."
 
-We posit that the four fundamental forces of nature (Strong, Electromagnetic, Weak, and Gravity) are not independent physical entities, but rather geometric dynamics, vector stackings, and phase deflections manifested by the underlying geometric matrix in its pursuit of scalar sum minimization.
+The macroscopically smooth and continuous spacetime field $(A, B, C)$ is inherently the coherent vector stacking of trillions of discrete microscopic pixels $(a, b, c)$, phase-locked by the imaginary anchor $I$:
 
----
+$$\mathbf{A} = \sum_{k} a_k, \quad \mathbf{B} = \sum_{k} b_k, \quad \mathbf{C} = \sum_{k} c_k$$
 
-## 2. Microscopic Vector Stacking and Coherent Coarse-Graining
-
-Macroscopically smooth and continuous spacetime (A, B, C) is fundamentally the coherent vector aggregation of billions of discrete microscopic pixels (a, b, c) phase-locked by the imaginary anchor point I:
-
-**A** = ∑ a_k,    **B** = ∑ b_k,    **C** = ∑ c_k
-
-* **Coarse-Graining and Coherence Length:** Via the Law of Large Numbers and phase-locking along the I-axis, discrete pixels (a, b, c) aggregate into macroscopically smooth geometric fields (such as Maxwell fields and gravitational metrics) once past the geometric coherence length, eliminating thermal noise.
-* **Geometric Essence of Mass and Inertia:** Macroscopic mass represents the local phase-locking of massive vector arrays along the imaginary axis I. The "inertial resistance" felt when pushing an object is simply the geometric tension generated when altering this phase-locked anchor along the I-axis.
+* **Coarse-Graining and Coherence Length**: Governed by the Law of Large Numbers and $I$-axis phase-locking, microscopic pixels that exceed the geometric coherence length average out thermal noise, condensing into macroscopically smooth geometric fields (e.g., Maxwell fields and metric gravity).
+* **Geometric Essence of Mass and Inertia**: An object's mass represents localized phase-locking of massive vector arrays along the imaginary axis $I$; the "inertial resistance" felt when accelerating an object is the geometric tension generated when altering these vector arrays relative to the $I$-axis phase anchor.
 
 ---
 
-## 3. Geometric Division, Dynamic Deflection, and Grand Unification of Forces
+### II. Geometric Roles, Dynamic Opening Angles, and Grand Unified Gauge Symmetry
 
-In the (A, B, C, I) geometric framework, the three microscopic gauge forces inhabit specific real vector axes on the (A, B, C) plane, while gravity exclusively occupies the orthogonal imaginary axis I.
+Under the $(A, B, C, I)$ framework, the three microscopic gauge forces map to relatively fixed vector axes within the redundant real plane $(A, B, C)$, whereas gravity exclusively occupies the orthogonal complex axis $I$.
 
 ```
-                    [Imaginary Axis I]
-                            │
-                            │  Gravity
-                            │  (Background Metric, Time Discharge Damping)
-                            │
-  ──────────────────────────┼────────────────────────── [Real Plane (A, B, C)]
-                          / │ \
-                         /  │  \   Dynamic Angle θ(E)
-                        /   │   \  (Energy Scale Dependent)
-              Electromagnetic  │  Weak Force
-                (Vector B) Strong (Vector C)
-                            (Vector A)
+                  [Orthogonal Complex Axis I]
+                               │
+                               │  Gravity
+                               │  (Serves as background metric, time venting
+                               │   damping, and holographic foundation)
+                               │
+  ─────────────────────────────┼───────────────────────────── [Real Plane (A, B, C)]
+                             / │ \
+                            /  │  \   Dynamic Opening Angle θ(E)
+                           /   │   \  (Deflects with energy scale)
+               Electromagnetic Strong  Weak
+                    (Axis B) (Axis A) (Axis C)
 
 ```
 
-### 3.1 Axis Assignment and Geometric Grand Unification
+#### 1. Geometric Closure and Dynamic Deflection Angle $\theta(E)$
 
-The three gauge forces map onto the real plane (A, B, C) because they share the underlying algebraic vector closure equation:
+The three gauge forces map to the real plane $(A, B, C)$ because they share an internal gauge closure equation:
 
-dA - dB + dC = 0
+$$dA - dB + dC = 0$$
 
-* **Dynamic Deflection Angles:** The initial 60° angle describes ideal ground-state geometry. In physical evolution, the angle θ(E) is a dynamic function of the energy scale E. At grand unification scales (high energy), full geometric symmetry holds; as the universe cools, angular deflection occurs (corresponding to spontaneous electroweak symmetry breaking and the Weinberg angle θ_W).
-* **Isomorphism with Running Coupling Constants:** The varying strengths and ranges of gauge forces in low-energy physics stem from geometric differentiation as vector projections traverse energy-grid resistance following angular deflection.
-
----
-
-## 4. Pan-Axial Tunneling via the Principle of Least Compensation
-
-### 4.1 The Principle of Least Compensation
-
-Quantum tunneling is not a purely random probabilistic event, but a deterministic flow following geodesics dictated by the **Principle of Least Compensation**. When geometric impedance on real axes (A, B, C) exceeds a critical threshold Λ_critical, real-axis advancement demands higher compensation than orthogonal rotation. Geodesics bend, and energy naturally slips into the orthogonal imaginary I-channel or deflects to adjacent gauge axes.
-
-**【Deep Geometric Isomorphism: From Brachistochrone to Quantum Tunneling】**
-
-Traditional Cartesian geometry (X, Y, Z) gives the illusion that a straight line is always optimal. However, physical entities follow paths of **minimal time/energy discharge compensation**, rather than shortest spatial distance.
-
-* **Macroscopic Brachistochrone (Cycloid Trajectory):** Falling objects in a gravity field follow curved cycloids because the non-uniform energy-level density optimizes time/energy discharge.
-* **Microscopic Quantum Tunneling:** When encountering high potential barriers, advancing along real axes incurs extreme energy-grid impedance. Rotating along the orthogonal imaginary axis I represents the path of least compensation—a microscopic brachistochrone geodesic through the energy grid.
-
-### 4.2 Manifestations of Pan-Axial Tunneling
-
-* **Strong Force Axis A:** Scalar inflation triggers color confinement; impedance forces energy onto the I-axis, manifesting physically as α-decay and nuclear fusion.
-* **Electromagnetic Axis B:** Real-axis obstruction induces orthogonal transformation, observed as electron and photon tunneling in semiconductors and STM devices.
-* **Weak Force Axis C:** Microscopic pressure causes time-discharge distortion (decay); high mass thresholds trigger gauge field topological tunneling (e.g., instanton transitions).
-* **Gravity on Imaginary Axis I:** Gravity occupies the orthogonal imaginary axis I. Real-plane tensor information maps onto I via orthogonal projection (cos θ + i sin θ), naturally undergoing vast geometric attenuation and elegantly solving the Hierarchy Problem.
+* **Dynamic Deflection Mechanism $\theta(E)$**: The $60^\circ$ baseline configuration represents an ideal high-energy state. During system evolution, the opening angle $\theta(E)$ acts as a dynamic function of the energy scale $E$. At the Grand Unified Theory (GUT) scale, the three axes display high symmetry; as the universe cools, the angle deflects, **isomorphically mapping running coupling constants and spontaneous electroweak symmetry breaking (the Weinberg angle $\theta_W$)** in particle physics.
+* **Pure Geometric Resolution of the Hierarchy Problem**: Gravity exclusively occupies the orthogonal complex axis $I$. Total information and tension from the real plane convert to the $I$-axis via complex orthogonal projection ($\cos\theta + i\sin\theta$), introducing a massive geometric decay factor that elegantly explains why gravity is dramatically weaker than microscopic gauge forces.
 
 ---
 
-## 5. Macro Geometric Degeneration and the Illusion of Cartesian (X,Y,Z) Space
+### III. Minimum Compensation Multi-Axis Tunneling and Euclidean Instanton Geodesics
 
-We assert that macroscopic spatial "planarity" arises from vector constraints on the over-complete real plane (A, B, C), whereas "depth / 3D sense" relies on holographic support from the orthogonal imaginary axis I (macro gravity metric and vertical damping).
+Quantum tunneling is not a random probabilistic event, but an execution of the **Principle of Least Compensation**. When geometric impedance on the real axes $(A, B, C)$ exceeds a critical threshold $\Lambda_{\text{critical}}$, direct progression imposes excessive cost. Consequently, geometric geodesics bend, diverting energy along the path of minimal compensation into the orthogonal complex axis $I$ channel (isomorphic to the Wick rotation $t \to i\tau$ in quantum field theory).
 
-This is corroborated by aerospace medicine: under microgravity, astronauts lose their internal I-axis vertical anchor, leading to a **20%–50% degradation in spatial orientation accuracy** and a flattening visual illusion where 3D space degrades toward 2D.
+**[Deep Geometric Isomorphism: Brachistochrone Curves and Quantum Tunneling]**
 
-Cartesian (X, Y, Z) space is thus not a fundamental reality, but a cognitive overlay adapted to local gravity. Once gravity anchoring is removed, 3D space reduces to a projection of the underlying over-complete real planar vector grid (A, B, C).
+* **Macroscopic Brachistochrone**: Falling objects in a gravitational field follow curved rather than straight paths because non-uniform isopotential line density creates variable damping along the vertical ($I$-axis). The curved trajectory is Fermat's principle applied to geometric refraction in non-uniform media.
+* **Microscopic Quantum Tunneling**: When encountering high potential barriers, particles undergo geometric rotation along the orthogonal complex axis $I$ or deflected axes—following an **Euclidean Instanton geodesic** that minimizes compensation through the non-uniform energy-density grid.
 
----
+```
+[Real Plane Progression] ──► [High Impedance Barrier Λ_crit] ──(Triggers Min Compensation)──► [Wick Rotation to Axis I]
+                                                                                                 │
+                                                                                       (Traverses Euclidean
+                                                                                        Instanton Geodesic)
+                                                                                                 │
+[Tunneling / Flavor Change Complete] ◄───────────────────────────────────────────────────────────┘
 
-## 6. Quantitative Scale and Symmetry Breaking
+```
 
-Under Grand Unification, vector closure holds:
+#### Multi-Axis Tunneling Manifestations across Scale
 
-dA - dB + dC = 0    and    min(|A|+|B|+|C|) = 0
+Under the grand unified closure equations $dA - dB + dC = 0$ and $\min(\vert{}A\vert{}+\vert{}B\vert{}+\vert{}C\vert{})=0$, the three axes differentiate due to unit quantization scales:
 
-As symmetry breaks and coupling constants scale:
-
-* **Strong Axis A:** Extremely large unit scale, short minimal compensation depth (~ 10^-15 m).
-* **Electromagnetic Axis B:** Moderate unit scale, extending to molecular scales (~ 10^-10 m).
-* **Weak Axis C:** Minimal unit scale, high mass threshold, driving flavor transformations.
-
----
-
-## 7. Novel Theoretical Predictions and Testability
-
-| Prediction # | Geometric Mechanism | Predicted Physical / Perceptual Phenomenon | Verification Method |
-| --- | --- | --- | --- |
-| **Prediction 1** | Vacuum grid geometric damping | Ultra-high-energy photons experience slight phase lag across long vacuum distances | Time-of-flight measurements in high-energy Gamma-Ray Bursts (GRBs) |
-| **Prediction 2** | Entanglement phase-locking on I | Local entropy increase slows inside dense quantum entanglement networks | Precision local thermodynamic measurement in quantum computing cores |
-| **Prediction 3** | Artificial I-axis phase injection | Galvanic Vestibular Stimulation (GVS) under microgravity reconstructs 3D spatial depth perception | ISS astronaut vestibular stimulation and spatial neuro-geometry experiments |
-| **Prediction 4** | Holographic pixel limit bounce | Black hole collapse hits a geometric pixel limit, triggering geometric rebound/outflow | Gravitational wave detectors (LIGO/LISA) capturing late-stage collapse signals |
-| **Prediction 5** | Geometric refraction in gradient media | Particle tunneling trajectories bend along minimal compensation cycloids in non-uniform grids | Phase interference patterns in near-field optical waveguides & electron microscopy |
+* **Strong Force (Axis $A$)**: Operates on a vast scale with an ultra-short minimal compensation tunneling depth ($10^{-15}\text{ m}$), manifesting as $\alpha$-decay and stellar nuclear fusion;
+* **Electromagnetic Force (Axis $B$)**: Operates on a intermediate scale (extending to $10^{-10}\text{ m}$), manifesting as electron and photon tunneling in semiconductors and STM microscopy;
+* **Weak Force (Axis $C$)**: Operates on a tiny scale with high mass thresholds, manifesting as geometric flavor transitions and gauge-field topological tunneling (instanton state transitions).
 
 ---
 
-## 8. Conclusion
+### IV. Macroscopic Sensory Degeneration and Cartesian $(X,Y,Z)$ as a Cognitive Add-On
 
-This sequel establishes a **deterministic geometric tunneling mechanism centered on the Principle of Least Compensation** and completes the physical assignment of gauge forces via dynamic angle deflections and vector closure equations.
+This theory posits that the macroscopic "sense of planarity" originates from geometric constraints of the redundant real vectors $(A, B, C)$, whereas the "sense of 3D depth" relies on holographic support from the orthogonal complex axis $I$ (macroscopic metric gravity and vertical damping).
 
-By describing the universe as a (3+1+1) quaternionic 3D planar over-complete grid, the framework unifies gauge interactions, quantum tunneling, gravity, and cognitive spatial perception without relying on hypothetical undiscovered particles, providing a unified geometric picture of physics.
+**Established Medical Fact in Aerospace Medicine:**
+
+Space medicine observations confirm that in microgravity environments, the otolith organs in the human vestibular system lose their gravitational vector anchor. Astronauts experience a **20%–50% decline in spatial orientation and depth perception accuracy**, alongside visual 3D flattening illusions. This demonstrates that the **Cartesian coordinate system $(X, Y, Z)$ is not an intrinsic property of fundamental physics, but a local cognitive add-on** developed by the human nervous system under continuous exposure to macroscopic gravity ($I$-axis damping).
 
 ---
 
-## References & Archives
+### V. Alignment with Established Physics and Future Technological Verification
 
-* Original English Archive: https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.about_the_spirit_or_ghost.md https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.another_interpretation_of_dreams.md https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.soul_human_god_world.md https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_a_life.md https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_space_what_is_time.md https://github.com/creatxrgithub/articles/blob/master/creatxr.universe.md
+| Domain / Phenomenon | Established Science Alignment | Testable Predictions & Verification Methods |
+| --- | --- | --- |
+| **Quantum Tunneling** | **[Aligned]** Wick rotation ($t \to i\tau$) in QFT, instanton topological transitions, semiconductor tunneling effects. | **[Prediction 1]** In media with specific geometric gradients, tunneling trajectories (phase fronts) of high-energy particles deviate along curves mathematically isomorphic to brachistochrones, measurable via near-field optical waveguide interference. |
+| **Perception & Gravity** | **[Verified]** Vestibular otolith unanchoring in microgravity causes a 20%–50% reduction in depth perception (Aerospace medical fact). | **[Prediction 2]** Injecting single-axis electrical pulses (GVS simulating $I$-axis damping) into vestibular nerves in orbit without visual input can artificially recreate 3D spatial depth perception with $100\%$ fidelity (testable on the ISS). |
 
+---
 
-* Original Chinese Archive: https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E5%9B%9B%E5%85%83%E4%B8%89%E7%B6%AD%E5%B9%B3%E9%9D%A2%E5%85%A8%E6%81%AF%E6%99%82%E7%A9%BA%E8%AB%96_%E7%BA%8C%E7%AF%87.md https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E5%9B%9B%E5%85%83%E4%B8%89%E7%B6%AD%E5%B9%B3%E9%9D%A2%E5%85%A8%E6%81%AF%E6%99%82%E7%A9%BA%E8%AB%96.md https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E5%9C%B0%E5%BA%9C%E4%BA%BA%E9%96%93%E7%A5%9E%E7%95%8C.txt https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E6%99%82%E7%A9%BA%E6%98%AF%E4%BB%80%E9%BA%BC.txt https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E7%94%9F%E5%91%BD%E6%98%AF%E4%BB%80%E9%BA%BC.txt https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E9%96%92%E8%AB%87%E9%AC%BC%E7%A5%9E.txt https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E9%97%9C%E6%96%BC%E5%A4%A2%E7%9A%84%E5%8F%A6%E9%A1%9E%E8%A7%A3%E9%87%8B.txt
+### VI. Concluding Remarks: The Ultimate Geometric Picture
 
+The $(3+1+1)$ complexified redundant holographic cosmology unifies macroscopic spacetime, microscopic gauge fields, quantum tunneling, and depth perception within a single geometric and information-theoretic matrix:
 
-)
+* **Spacetime as Projection**: Macroscopic 3D Cartesian geometry $(X,Y,Z)$ is an emergent neural and holographic mapping of the redundant plane $(A,B,C)$ under the metric tension of the orthogonal axis $I$;
+* **Time as Venting**: The unidirectional flow of time is the action dissipation ($f(a,b,c,i)$) and entropy growth of non-equilibrium open systems moving along geometric gradients;
+* **Information Conservation**: When facing extreme gravitational potential wells, the system undergoes Wick rotation via the principle of least compensation and executes data sign-inversion ($\exp(i\pi)=-1$) along the $I$-axis, preserving quantum unitarity via holographic ejection (quantum bounce).
+
+We perceive the evolution of the cosmos within geometric folds, yet at the fundamental Planck scale and global phase network:
+
+> **The universe was never born, nor will it ever perish.**
+> **We have never left the singularity, just as we have never left chaos.**
+
+---
+
+## References
+
+Yuan Jian. *On Metaphysics: Quaternionic 3D-Planar Holographic Spacetime Theory.md*
+
+Yuan Jian. *On Metaphysics: The Underworld, The Mortal Realm, and The Divine Realm.txt*
+
+Yuan Jian. *On Metaphysics: What is Spacetime.txt*
+
+Yuan Jian. *On Metaphysics: What is Life.txt*
+
+Yuan Jian. *On Metaphysics: Informal Remarks on Ghosts and Gods.txt*
+
+Yuan Jian. *On Metaphysics: An Alternative Explanation of Dreams.txt*
+
+---
+
+*(End of Sequel)*

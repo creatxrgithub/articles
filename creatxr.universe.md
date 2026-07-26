@@ -1,132 +1,140 @@
 
+---
 
-# Title:
+# Quaternionic 3D-Planar Holographic Cosmology (Main Paper)
 
-**The Quaternion 3D-Plane Holographic Universe Theory: A (3+1+1) Model Comprising a 3D Plane, an Imaginary Dimension, and an Effluence Function**
+## —— Geometric Reconstruction Based on $(3+1+1)$ Complexified Redundant Structure, Isopotential Metric, and Time Venting Function
 
-# Abstract:
-
-This study introduces the "Quaternion 3D-Plane Holographic Universe Theory." It posits that the "sag" or "warping" depicted in General Relativity’s traditional "rubber sheet model" of gravity is, in geometric reality, merely a **"localized shift in the density of iso-energy lines."** Consequently, length contraction is reinterpreted as an **"observational geometric bias"** occurring because the total "thickness" of energy levels penetrated by an object remains constant while the density of these iso-energy lines shifts. By introducing an imaginary constant, $I$, acting as a cosmological baseline, the macro time axis is successfully lower-dimensionally reconstructed into a **"geometric effluence function driven by energy gradients,"** thereby offering an ultra-minimalistic algebraic geometric framework for the holographic grand unification of macro spacetime and micro quantum mechanics.
+> **"The universe was never born, nor will it ever perish. We have never left the singularity, just as we have never left chaos."**
 
 ---
 
-# Main Text & Derivation:
+### Abstract
 
-## 1. Overcompleteness and Constraints of a 3D-Plane Basis
+This study proposes a **$(3+1+1)$ complexified redundant holographic spacetime model**, aiming to provide a unified differential geometric and information-theoretic framework for general relativity, quantum phenomena, the thermodynamic arrow of time, dimensional reduction of Calabi-Yau manifolds, and the black hole information paradox. This theory asserts that "spacetime curvature" in the traditional "rubber sheet model" is inherently the local geometric density distribution and gradient variation of an Isopotential Metric Field. The "length contraction and time dilation" in special relativity are projection measurement biases caused by an observer traversing a constant total thickness of geometric energy levels. By introducing a global phase anchor—the complex orthogonal axis $I$—this model reconstructs time as a dynamic, non-linear **Venting Function $f(a,b,c,i)$** describing action dissipation along geometric impedance gradients. Furthermore, by incorporating the holographic pixel encoding capacity limit, this theory derives a data sign-inversion mechanism under extreme gravitational potential wells, self-consistently resolving the black hole singularity and information loss problems, while offering a purely geometric deconstruction of dark matter, dark energy, and the fate of the universe.
 
-Consider a standard 2D Cartesian coordinate system $XY$, where the positive $X$-axis points right and the positive $Y$-axis points down.
+---
 
-Let us construct a 3D-plane coordinate system $ABC$ sharing the same origin:
+### I. Redundancy, Coordinate Transformation, and Gauge Fixing of the 3D Planar Basis
 
-1. The positive $A$-axis coincides with the positive $X$-axis.
+#### 1. Geometric Basis Setup and Vector Constraints
 
-2. The positive $B$-axis is defined by rotating the positive $A$-axis by $60^\circ$ toward the positive $Y$-axis (meaning it lies between the positive $X$ and $Y$ axes, forming a $60^\circ$ angle with the positive $X$-axis and a $30^\circ$ angle with the positive $Y$-axis).
+Let $XY$ be a planar Cartesian coordinate system where the positive $X$-axis points right and the positive $Y$-axis points downward.
 
-3. The positive $C$-axis is defined by rotating the positive $B$-axis by another $60^\circ$ (meaning it lies between the negative $X$-axis and positive $Y$-axis, forming a $60^\circ$ angle with the negative $X$-axis and a $30^\circ$ angle with the positive $Y$-axis).
+Let $ABC$ be a redundant 3D planar coordinate system defined as follows:
 
-From the vector transitions of these coordinate axes, we derive the overcompleteness constraint of the system:
+1. The $A$-axis coincides with the positive $X$-axis of the Cartesian system;
+2. The positive direction of the $B$-axis is rotated $60^\circ$ toward the positive $Y$-axis with the origin as the pivot (forming a $60^\circ$ angle with the positive $X$-axis and $30^\circ$ with the positive $Y$-axis);
+3. The positive direction of the $C$-axis is rotated an additional $60^\circ$ from the $B$-axis (positioned between the negative $X$-axis and positive $Y$-axis, forming a $120^\circ$ angle with the positive $X$-axis).
+
+From the vector variations of the coordinate axes, internal gauge redundancy is evident:
 
 $$dA + dC = dB \quad \implies \quad dA - dB + dC = 0$$
 
-The positioning coordinates of the system are mathematically bound by minimizing the sum of the absolute scalar values across all three axes, defined as:
+#### 2. Gauge Fixing and Minimization Condition
 
-$$\min(|A| + |B| + |C|)$$
+Prior to observation or system action, the redundant 3D planar basis possesses infinitely many algebraically equivalent coordinate representations (i.e., inherent **Gauge Freedom**). To determine the local geometric state of the system, a **Gauge Fixing** constraint analogous to $L_1$-norm sparsification in signal processing is introduced, dictating that the system positioning coordinates minimize the scalar sum across the three axes:
 
-Evidently, under this geometric constraint, at least one of the axis values must identically be $0$.
+$$\min(\vert{}A\vert{} + \vert{}B\vert{} + \vert{}C\vert{})$$
 
-To determine a correction factor $N$ such that the scalar sum remains minimized:
+Evidently, in this positioning coordinate representation, the projection value on at least one axis vanishes. To determine a scalar gauge transformation parameter $N$ such that:
 
-$$\min(|A + N| + |B - N| + |C + N|)$$
+$$\min(\vert{}A + N\vert{} + \vert{}B - N\vert{} + \vert{}C + N\vert{})$$
 
-The calculation of $N$ can be executed by substituting $-A, B, -C$ into the expression above. Thus, $(A, B, C)$ and $(A + N, B - N, C + N)$ constitute an identity transformation within this 3D-plane system.
-
-## 2. Spatial Matrix Filling and the "Quaternion Time Effluence Function"
-
-The framework established above is fundamentally a "3D plane." When viewed from a conventional three-dimensional perspective, this structure within the "virtual solid space" is geometrically equivalent to three mutually intersecting 2D planes.
-
-To fill the spatial gaps and angular voids within this "virtual solid," the imaginary constant $I$ is introduced as a dimensional filler, expanding the architecture into a "quaternion" system.
-
-This introduces an unresolved functional equation where the boundary conditions demand that $(a,b,0,i)$, $(a,0,c,i)$, and $(0,b,c,i)$ satisfy the condition of "sharing the same $I$ and possessing an identical scalar sum for $abc$" (currently treated as an unknown analytical solution).
-
-## 3. Dimensional Reduction of Superstring or M-Theory
-
-Superstring theory posits that six extra dimensions are compactly curled up within a Calabi-Yau manifold. Given that a Calabi-Yau manifold consists of six dimensions (three complex dimensions), the $(a,b,c,i)$ quaternion coordinate system proposed in this framework offers sufficient geometric degrees of freedom to map across its topological coverage.
-
-Furthermore, the eleven-dimensional spacetime predicted by M-theory aligns precisely with the combined mathematical dimensions of our four-element quaternion basis plus the required time effluence function.
-
-## 4. Iso-Energy Lines and the Perception of Spacetime
-
-Borrowing the topographical concept of "contour lines" from cartography, this theory defines the spatial distribution of energy levels as "iso-energy lines." Physical space is fundamentally a holographic screen formed by the superposition of surfaces woven from these different iso-energy lines. Human perception of space is merely a continuous observation of the combinations of these distinct "iso-energy surfaces" projected onto a singular instance of time (much like how the illusion of continuous motion in film is generated by playing a sequence of static, individual frames).
-
-The perception of time stems inherently from observing shifts in spatial energy. If an energy-intensity dimension exists, time manifests as the "energy decay differential" relative to a baseline value on that energy dimension. Because this underlying differential continuously increments or decrements, macro observers perceive the flow of time. If an observer’s frame of reference becomes completely identical to the energy decay differential of their localized position, the geometric gradient drops to zero, and time halts.
-
-This reveals the root geometric cause of spacetime interconnectedness. In other words: **the time axis is not an independent dimension, but an effluence function derived directly from energy gradients.**
-
-The previously demanded function can therefore be understood fundamentally as the "time function."
-
-## 5. Macro States and Relativity
-
-At this juncture, this model successfully scales down the eleven-dimensional Calabi-Yau manifold geometrically, defining this "effluence function" as the micro, "imaginary" time axis. The macro time dimension observed in classical physics and the micro time dimension in quantum geometry are fundamentally connected at the baseline.
-
-### 5.1 Replacing the Rubber Sheet Model
-
-Relativity traditionally visualizes four-dimensional spacetime distortion using the analogy of a heavy iron ball depressing a rubber sheet. Applying our "quaternion 3D-plane" architecture, physical space itself undergoes no actual physical sagging or geometric warping; the essence of a gravitational field is strictly **"a localized alteration in the density of iso-energy lines."**
-
-### 5.2 The Nature of Length Contraction
-
-The geometric essence of length contraction is not a physical shrinking of space, but rather a manifestation of an object traversing a constant geometric "thickness" of energy levels whose iso-energy lines have grown denser, resulting in an observational variation. Similarly, the variance of the speed of light through different physical media is caused by the micro-density of energy lines within the medium thickening, which exerts localized geometric damping on the time effluence function.
-
-### 5.3 Gravity's Geometric Asymmetry
-
-A celestial body is essentially a massive, enduring "energy aggregation node." The closer an observer gets to the core of this node, the denser the iso-energy lines become. While the total geometric thickness of energy levels traversed when entering or leaving a gravitational field is symmetric, macro observations display a distinct asymmetry—objects fall easily (free fall) but struggle to escape (requiring escape velocity). The underlying cause is that higher-energy strata exert a significantly greater confining grip on the underlying geometry.
-
-## 6. Quantum Mechanics
-
-### 6.1 The Essence of Wave-Particle Duality
-
-When the energy differential of a micro-object relative to its observation frame undergoes localized fluctuations, its effluence function projects a periodic "iso-energy line density ripple" onto the holographic screen, manifesting macroscopically as a probabilistic "wave." Conversely, when energy is sharply focused at the geometric pixel limit of the system, it collapses into a localized, observable "particle." Wave and particle are not two distinct material states, but rather different observational phases of the same geometric holographic projection under varying energy gradients.
-
-### 6.2 The Observer Effect as Phase Interference of the Imaginary Constant $I$
-
-Prior to introducing an observation frame, the particle's imaginary constant $I$ exists in a state of free oscillation across a multi-dimensional complex space (the quantum superposition state). The moment an observation occurs, the reference frame is forcefully introduced, immediately locking down the "3D-plane" basis. The scalar minimization mechanism, $\min(|A|+|B|+|C|)$, is compelled to select a unique solution. The so-called "wavefunction collapse" is not consciousness altering objective matter, but rather a mathematical inevitability of an identity transformation when a geometric system is locked into a reference frame.
-
-### 6.3 Action at a Distance in Quantum Entanglement
-
-In this theory, two entangled particles separated by light-years on the macro screen actually share the exact same initial value configuration of a single quaternion effluence function within the micro "virtual solid" geometry. The macro spatial distance between them is merely a geometric illusion generated by the unfurling of the 3D projection screen. Within the underlying algebraic architecture, anchoring the phase of the imaginary constant $I$ for one particle instantaneously forces a corresponding shift in the geometric equilibrium of the other at identical spacetime coordinates ($t=0$). Because they are fundamentally the exact same node in the underlying geometry, no faster-than-light medium or signal transmission is required.
-
-## 7. The Nature of the Imaginary Constant $I$
-
-The imaginary constant $I$ possesses no continuous curve trajectory in conventional space; within this framework, it functions purely as a system-wide "geometric anchor" (a constant). Since time has been reconstructed as a function, $I$, acting as a boundary condition, must express itself as a fixed cosmological constant. This constant $I$ likely unmasks the fundamental nature of energy that modern physics has yet to directly isolate. Because all physical measurements require a relative reference, a geometric state completely devoid of relative reference expresses itself as an origin or a constant (which can be simplified as zero). This allows our model to naturally revert to classical 4D spacetime at macroscopic limits, though its underlying mechanism remains entirely distinct from Einsteinian spacetime.
-
-## 8. Universality
-
-The "Quaternion 3D-Plane Holographic Universe Theory" possesses complete algebraic universality. By adjusting the baseline scalar value of the imaginary anchor $I$, this framework can be directly extended and applied to any parallel universe model featuring alternative cosmological constants.
-
-## 9. Novel Theoretical Predictions
-
-Derived straight from this algebraic geometric framework, this theory yields three distinct geometric predictions capable of challenging conventional particle physics models:
-
-### The Maximum Coding Density Limit
-
-The geometric compression of iso-energy lines has a strict physical threshold. In zones of extreme energy density (such as a black hole core), the system does not collapse into a traditional mathematical "infinite singularity." Instead, it hits a geometric **"holographic pixel limit."** At this point, the system triggers a mechanism analogous to low-level computer **"integer overflow and sign flipping,"** naturally resulting in a reverse eruption of energy—manifesting on the holographic screen as a white hole or initiating the big bang of a baby universe.
-
-### Cosmological Constant Drifts
-
-Given that macro time is merely the statistical average of countless microscopic quaternion effluence functions, the phase of the anchoring imaginary constant $I$ may undergo localized, non-equilibrium perturbations within highly complex quantum entanglement networks. On a high-precision macroscopic scale, this will manifest as tiny, periodic **"geometric jitters"** or "drifts" in values traditionally held to be absolutely constant, such as the fine-structure constant $\alpha$ or the vacuum speed of light $c$.
-
-### The Matrix Stagnation Effect
-
-When the internal energy decay differential of an isolated system achieves a perfect, deadlocked equilibrium with its temporal reference frame, the output of its effluence function drops precisely to zero ($t=0$). The system completely uncouples (decoheres) geometrically from the macroscopic projection screen, becoming entirely immune to any macro electromagnetic waves or physical interactions. This provides a pure, underlying geometric explanation for the elusive nature of dark matter—**"retaining gravitational mass while leaving no particle trace."** They have simply stagnated within the matrix of time.
+the coordinate tuple can be substituted into the equation to solve for $N$. The coordinate systems $(A, B, C)$ and $(A + N, B - N, C + N)$ constitute geometric identity transformations within the redundant 3D planar system.
 
 ---
 
-# References:
+### II. The Complex Orthogonal Axis $I$ and the Quaternionic Time Venting Function
 
-English Version Archive:
+The redundant real plane $(A, B, C)$ can be deconstructed from a conventional 3D perspective into three intersecting "2D planes." To fill the spatial and inter-angular fluidic voids in this redundant geometric structure, the model introduces an orthogonal complex dimension $I$, yielding a $(3+1+1)$ complexified redundant structure:
 
-[https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_space_what_is_time.md](https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_space_what_is_time.md)
+1. **Redundant Real Plane $(A, B, C)$**: Corresponds to action projections of microscopic gauge fields onto the macroscopic holographic screen;
+2. **Orthogonal Complex Axis $I$**: Serves as the **Global Phase Anchor** for the holographic geometric matrix, acting as a universal constant that governs matrix coherence and ground-state energy under boundary conditions;
+3. **Time Venting Function $f(a,b,c,i)$**: A dynamic, non-linear evolution equation describing action dissipation along geometric gradients.
 
-Chinese Version Archive:
+Its boundary conditions require that the subspaces $(a,b,0,i)$, $(a,0,c,i)$, and $(0,b,c,i)$ satisfy "shared $I$ and identical scalar sums for $a,b,c$." The unidirectional flow of time is fundamentally the macroscopic manifestation of thermodynamic entropy growth and action dissipation along geometric gradients in non-equilibrium open systems.
 
-[https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E6%99%82%E7%A9%BA%E6%98%AF%E4%BB%80%E9%BA%BC.txt](https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E6%99%82%E7%A9%BA%E6%98%AF%E4%BB%80%E9%BA%BC.txt)
+---
 
+### III. High-Dimensional Geometric Reduction Isomorphism in Superstring / M-Theory
+
+1. **Dimensional Reduction of Calabi-Yau Manifolds**: Superstring theory asserts that six dimensions are compactified within a Calabi-Yau manifold. Given that a Calabi-Yau manifold consists of six real dimensions (three complex dimensions), the quaternionic coordinate system $(a,b,c,i)$ of this theory already exhibits complete mathematical isomorphism in geometric coverage and symmetry mapping.
+2. **Correspondence to 11D Spacetime in M-Theory**: The eleven-dimensional spacetime predicted by M-Theory, when mapped to $(a,b,0,i)$ combined with the derived **Time Venting Function $f(a,b,c,i)$**, achieves exact algebraic correspondence in geometric dimensions and degrees-of-freedom allocation.
+
+---
+
+### IV. Isopotential Metric Fields and Geometric Mapping of General Relativity
+
+This model generalizes topographical "contour lines" to spacetime geometry, defining them as **Isopotential Lines**. Space, at its core, is a holographic projection formed by the superposition of isopotential surfaces at different energy levels; macroscopic space is merely human perception of these superimposed projections at a given instant.
+
+Perceiving both time and space requires a frame of reference. Given an energy intensity dimension, time represents the energy difference relative to a decay value along that dimension. If the temporal reference frame matches the local energy decay difference perfectly (the geometric gradient vanishes), proper time halts. **"The time axis is a venting function $f(a,b,c,i)$ derived from energy-level gradients,"** which serves as the fundamental reason for spacetime unification.
+
+```
+       [Low Energy / Weak Gravity]            [High Energy / Strong Gravity Well (e.g., Black Hole/Star)]
+  ─────────────────────────             ─────── ─── ─ ┼ ─ ─── ───────
+   Sparse Isopotential Lines               Dense Isopotential Lines
+   (Gentle metric gradient)                (Extreme metric gradient)
+   - Proper time flows fast                - Proper time slows down (Gravitational time dilation)
+   - Flat spatial geometry                 - Severely curved/folded spatial geometry
+
+```
+
+1. **Geometric Correction to the Rubber Sheet Model**: Physical space requires no literal physical sagging; gravitational fields are essentially the "non-uniform density distribution of the proper-time metric tensor $\sqrt{-g_{00}}$." Closer to massive bodies (energy-level aggregation nodes), the density of isopotential lines increases, driving the rate of proper time toward zero (gravitational time dilation).
+2. **Geometric Essence of Length Contraction**: The total energy-level "thickness" an object traverses remains constant, but the localized compression of isopotential lines causes macroscopic observers to measure a reduced geometric size on the projection screen. Similarly, changes in light speed across different media stem from compressed microscopic energy-level lines within the medium, which exert local geometric damping on the time venting function.
+3. **Gravitational Confinement ("Easy to Enter, Hard to Exit")**: While traversing identical energy-level thicknesses when entering or exiting a stellar body, the macroscopic phenomenon of "easy entry, hard exit" arises because higher energy levels exert greater geometric binding tension on the underlying structure.
+
+---
+
+### V. Holographic Geometric Deconstruction of Quantum Phenomena
+
+1. **Wave-Particle Duality**: Microscopic fluctuations in energy-level differences relative to an observational reference frame induce periodic "ripples in isopotential line density" (probability waves); when energy concentrates at the holographic pixel limit, it collapses into an observable particle.
+2. **Observer Effect and Wave Function Collapse**: Prior to observation, a particle's imaginary component $I$ swings freely in complex space (quantum superposition); upon observation, the reference frame forces a lock, compelling the gauge-fixing mechanism $\min(\vert{}A\vert{}+\vert{}B\vert{}+\vert{}C\vert{})$ to select a unique solution (wave function collapse). This is not consciousness altering objective matter, but a mathematical necessity of the geometric system upon reference frame locking.
+3. **Action at a Distance in Quantum Entanglement**: Entangled particles separated by vast distances share an identical initial quaternionic venting function value and geometric node at the underlying layer. Anchoring the $I$-phase of one particle instantaneously fixes the geometric state of the other at $t=0$, violating neither special relativity nor the speed-of-light limit.
+
+---
+
+### VI. Black Hole Information Paradox, Geometric Overflow, and Dark Matter / Dark Energy
+
+1. **Holographic Pixel Limit and Sign Inversion**: Compressing isopotential lines at extreme energy aggregations (black hole cores) encounters a physical limit (the Bekenstein-Hawking Bound). At this threshold, the system avoids generating an infinite singularity; instead, it triggers a "data overflow and sign inversion mechanism" (executing a phase rotation $\exp(i\pi)=-1$ via the orthogonal axis $I$), producing a reverse energy gush (a holographic white hole or quantum bounce) that self-consistently preserves quantum unitarity.
+2. **Local Fluctuations of Universal Constants**: Macroscopic time represents the statistical average of countless microscopic venting functions. Within deep quantum entanglement networks, local non-equilibrium perturbations in the phase anchor $I$ manifest as minute, periodic jitters in the vacuum speed of light $c$ and the fine-structure constant $\alpha$.
+3. **Geometric Stagnation of Dark Matter**: When energy decay differences in an isolated system reach a deadlocked equilibrium with the temporal reference frame, the venting function output drops to zero ($t=0$), decoupling the system from the macroscopic projection screen (decoherence). Interacting with neither electromagnetic nor nuclear forces, it retains only the **pure metric gravitational tension** of the orthogonal axis $I$ (explaining galaxy rotation curves and gravitational lensing).
+4. **Orthogonal Tension of Dark Energy**: The orthogonal complex axis $I$ possesses vacuum zero-point phase tension, injecting negative-pressure geometric compensation into the real plane and driving the accelerated expansion of the universe.
+
+---
+
+### VII. Deconstruction of Cosmic Topology: Rejecting Universal Endings and Boundary Hypotheses
+
+At both geometric and information-theoretic levels, this theory rejects the three classic cosmic endings and boundary hypotheses:
+
+1. **Rejection of the Three Extreme Endings**:
+* **No Big Crunch**: Collapse hits the holographic pixel capacity limit, triggering data sign-inversion ($\exp(i\pi)=-1$) via the $I$-axis, transforming geometric sagging into a holographic ejection (quantum bounce).
+* **No Big Rip**: Negative geometric pressure injected by the orthogonal $I$-axis is bounded by the coherence constraints of the internal gauge closure equation $dA - dB + dC = 0$; this tension has an intrinsic upper bound and cannot tear the geometric grid.
+* **No Heat Death**: As regional gradients flatten, dynamic perturbations from the global phase anchor $I$ and gauge freedom in the redundant basis trigger new local geometric fluctuations, preventing permanent cosmic stagnation.
+
+
+2. **Rejection of Finite Boundaries and Bubble Multiverses**: Boundaryless self-consistency is achieved without physical outer limits; the "bubble multiverse" is reinterpreted as dynamic un-gauge-fixed superposition states within the redundant real plane $(A, B, C)$, rather than physical spatial divisions.
+
+---
+
+### VIII. Alignment with Established Physics and Unique Testable Predictions
+
+| Domain / Phenomenon | Established Science Alignment | Unique Falsifiable Predictions |
+| --- | --- | --- |
+| **Gravity & Metric** | **[Verified]** Gravitational time dilation in General Relativity, gravitational deflection of light, Hawking radiation at black hole horizons. | **[Prediction 1]** Ultra-high-energy photons near the Planck scale traversing a vacuum experience minute phase lags (dispersion in GRB photon arrival times). |
+| **Black Holes & Info** | **[Aligned]** Quantum bounce in Loop Quantum Gravity, preservation of quantum unitarity. | **[Prediction 2]** Late-stage black hole evolution avoids infinite singularities and emits high-frequency gravitational wave pulses with distinct topological phase transition signatures. |
+| **Constants & Thermodynamics** | **[Aligned]** Non-locality of quantum entanglement, AdS/CFT holographic duality. | **[Prediction 3]** Within deep quantum entanglement networks where the local phase anchor $I$ is locked, the internal rate of thermodynamic entropy growth (venting function output) slows down significantly. |
+
+---
+
+# References
+
+English Paper Archive:
+
+[https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_space_what_is_time.md](https://www.google.com/search?q=https://github.com/creatxrgithub/articles/blob/master/creatxr.eng.myth.what_is_space_what_is_time.md)
+
+Chinese Paper Archive:
+
+[https://github.com/creatxrgithub/articles/blob/master/%E5%8E%9F%E5%8A%8D.%E8%AB%87%E7%8E%84.%E6%99%82%E7%A9%BA%E6%98%AF%E4%BB%80%E9%BA%BC.txt](https://www.google.com/search?q=https://github.com/creatxrgithub/articles/blob/master/%25E5%258E%259F%25E5%258A%258D.%25E8%25AB%2587%25E7%258E%2584.%25E6%2599%2582%25E7%25A9%25BA%25E6%2598%25AF%25E4%25BB%2580%25E9%25BA%25BC.txt)
+
+---
